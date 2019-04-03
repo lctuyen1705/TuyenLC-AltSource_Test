@@ -37,6 +37,10 @@ namespace ConsoleApp1
             var listSize = new List<string>(sizes);
             var listColor = new List<string>(colors);
 
+            var isAdd = string.Empty;
+            var no = string.Empty;
+            var isVendor = string.Empty;
+            var valueVendor = false;
             var product = string.Empty;
             var price = string.Empty;
             var size = string.Empty;
@@ -50,9 +54,30 @@ namespace ConsoleApp1
             {
                 isCorrect = false;
 
-                Console.WriteLine("Do you want add new product");
-                product = Console.ReadLine();
-                listProduct.Add(new Product { No = "1", Category = "T-Shirt", Price = "$6", IsVendor = true });
+                Console.WriteLine("Do you want add new product ? (Y/N)");
+                isAdd = Console.ReadLine();
+                if (isAdd.Contains("Y"))
+                {
+                    Console.WriteLine("Enter the Code of clother:");
+                    no = Console.ReadLine();
+                    Console.WriteLine("Enter the Category of clother:");
+                    product = Console.ReadLine();
+                    Console.WriteLine("Enter the Price of clother:");
+                    price = Console.ReadLine();
+                    Console.WriteLine("Is this clother sell for Vendor? (Y/N):");
+                    isVendor = Console.ReadLine();
+                    if (isVendor.Contains("Y"))
+                    {
+                        valueVendor = true;
+                    }
+                    else if (isVendor.Contains("N"))
+                    {
+                        valueVendor = false;
+                    }
+
+                    listProduct.Add(new Product { No = no, Category = product, Price = price, IsVendor = valueVendor });
+                    Console.WriteLine("Thank you!");
+                }
             }
 
             if (postion.Contains("V"))
@@ -213,9 +238,11 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.WriteLine("Please check your value when you choosed and try again!");
+                if (!postion.Contains("S"))
+                {
+                    Console.WriteLine("Please check your value when you choosed and try again!");
+                }
             }
-
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();

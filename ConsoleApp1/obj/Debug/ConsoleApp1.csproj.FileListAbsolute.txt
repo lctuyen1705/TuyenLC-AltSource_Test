@@ -5,3 +5,10 @@ C:\Users\Tuyen.LC\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csp
 C:\Users\Tuyen.LC\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\Tuyen.LC\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Tuyen.LC\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\TuyenLC-AltSource_Test\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\TuyenLC-AltSource_Test\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\TuyenLC-AltSource_Test\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\TuyenLC-AltSource_Test\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\TuyenLC-AltSource_Test\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\TuyenLC-AltSource_Test\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\TuyenLC-AltSource_Test\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
